@@ -1,6 +1,7 @@
-package com.becomap.locationservice.configuration;
-import com.becomap.locationservice.configuration.Entity.MqttEntity;
-import com.becomap.locationservice.configuration.Repository.MqttRepository;
+package com.example;
+
+import com.example.Mqtt.Entity.MqttEntity;
+import com.example.Mqtt.Repository.MqttRepository;
 import lombok.extern.log4j.Log4j2;
 
 import org.eclipse.paho.client.mqttv3.MqttConnectOptions;
@@ -25,7 +26,7 @@ import java.util.Objects;
 
 @Configuration
 @Log4j2
-public class MqttConfiguration {
+public class MqttService {
 
     @Autowired
     MqttRepository mqttRepository;
